@@ -282,6 +282,8 @@ GameObject:
   - component: {fileID: 249296281}
   - component: {fileID: 249296282}
   - component: {fileID: 249296283}
+  - component: {fileID: 249296285}
+  - component: {fileID: 249296284}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -352,7 +354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 612.35034, y: -15.329903}
+  scrollPos: {x: 134.35034, y: 64.6701}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 528.8
@@ -363,9 +365,13 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
-  variables: []
+  selectedBlocks:
+  - {fileID: 249296261}
+  selectedCommands:
+  - {fileID: 249296266}
+  variables:
+  - {fileID: 249296285}
+  - {fileID: 249296284}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -407,8 +413,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '{audio=Keyboard} Halo nama saya goldi'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 330904687}
+  portrait: {fileID: 21300000, guid: 47b1925e6e3e22148a49395ddae4454e, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -434,8 +440,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '{audiostop=Keyboard} {audio=Keyboard} Saya sangat senang bermain '
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 330904687}
+  portrait: {fileID: 21300000, guid: 47b1925e6e3e22148a49395ddae4454e, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -462,8 +468,8 @@ MonoBehaviour:
   storyText: '{audiostop=Keyboard}{audio=Keyboard}{punch=10,0.5}tapi saya juga malash
     untuk belajar{audiostop=Keyboard}'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 330904687}
+  portrait: {fileID: 21300000, guid: 47b1925e6e3e22148a49395ddae4454e, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -520,8 +526,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Goldi tolong belikan mamah garam & madu di toko mang oleh
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 2105942178}
+  portrait: {fileID: 21300000, guid: 96d4c7524d96fe64ba639bcdfb8ef0ff, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -589,8 +595,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '{audiostop=Keyboard}{audio=Keyboard}{punch=10,0.5}Berapa banyak mah?{audiostop=Keyboard}'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 330904687}
+  portrait: {fileID: 21300000, guid: 47b1925e6e3e22148a49395ddae4454e, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -616,8 +622,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Mamah pengen bikin kepala puyeng soalnya
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 2105942178}
+  portrait: {fileID: 21300000, guid: 96d4c7524d96fe64ba639bcdfb8ef0ff, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -643,8 +649,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'Garam 2, madunya 3 ya goldi '
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 2105942178}
+  portrait: {fileID: 21300000, guid: 96d4c7524d96fe64ba639bcdfb8ef0ff, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -692,8 +698,8 @@ MonoBehaviour:
   storyText: '{audiostop=Keyboard}{audio=Keyboard}{punch=10,0.5}Waduh apa maksudnya
     tuh{audiostop=Keyboard}'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 330904687}
+  portrait: {fileID: 21300000, guid: 47b1925e6e3e22148a49395ddae4454e, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -719,8 +725,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: '{audiostop=Keyboard}{audio=Keyboard}{punch=10,0.5}Baik mah {audiostop=Keyboard}'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 330904687}
+  portrait: {fileID: 21300000, guid: 47b1925e6e3e22148a49395ddae4454e, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1060,6 +1066,90 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &249296284
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249296253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5077f295a1fb1144a9e599bbae2c57a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: GoldiMom
+  value: {fileID: 0}
+--- !u!114 &249296285
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249296253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5077f295a1fb1144a9e599bbae2c57a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: Goldi
+  value: {fileID: 0}
+--- !u!1 &330904686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 330904688}
+  - component: {fileID: 330904687}
+  m_Layer: 0
+  m_Name: Character Goldi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &330904687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330904686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Goldi
+  nameColor: {r: 0.94896436, g: 0.9716981, b: 0, a: 1}
+  soundEffect: {fileID: 0}
+  portraits:
+  - {fileID: 21300000, guid: 47b1925e6e3e22148a49395ddae4454e, type: 3}
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
+  effectAudioSource: {fileID: 0}
+  voiceAudioSource: {fileID: 0}
+--- !u!4 &330904688
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330904686}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &411201608
 GameObject:
   m_ObjectHideFlags: 0
@@ -2239,6 +2329,60 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2105942177
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2105942179}
+  - component: {fileID: 2105942178}
+  m_Layer: 0
+  m_Name: Goldi Mom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2105942178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105942177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Goldi Mom
+  nameColor: {r: 1, g: 0, b: 0, a: 1}
+  soundEffect: {fileID: 0}
+  portraits:
+  - {fileID: 21300000, guid: 96d4c7524d96fe64ba639bcdfb8ef0ff, type: 3}
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
+  effectAudioSource: {fileID: 0}
+  voiceAudioSource: {fileID: 0}
+--- !u!4 &2105942179
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105942177}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -2249,3 +2393,5 @@ SceneRoots:
   - {fileID: 1385600857}
   - {fileID: 1268605374}
   - {fileID: 437361294}
+  - {fileID: 330904688}
+  - {fileID: 2105942179}
